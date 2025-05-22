@@ -1,0 +1,5 @@
+    html, body, #viewDiv { height:100%; width:100%; margin:0; padding:0; }
+    #filterDiv, #densityDiv { position:absolute; right:15px; background:rgba(255,255,255,0.9); padding:8px; border-radius:4px; font-family:sans-serif; z-index:99; }
+    #filterDiv { top:15px; }
+    #densityDiv { top:55px; }
+    #tableDiv { width:300%; height:300px; }

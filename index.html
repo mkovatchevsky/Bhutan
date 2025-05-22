@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Points, Density & Drawing Layers</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://js.arcgis.com/4.32/"></script>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.32/esri/themes/light/main.css" />
+  <link rel="stylesheet" href="styles.css">
+  
+  <style>
+  </style>
+</head>
+<body>
+  <div id="viewDiv"></div>
+
+  <div id="filterDiv">
+    <label for="religionFilter">Filter:</label>
+    <select id="religionFilter">
+      <option value="">All</option>
+      <option value="buddhist">Buddhist</option>
+      <option value="hindu">Hindu</option>
+      <option value="shinto">Shinto</option>
+      <option value="spiritualist">Spiritualist</option>
+    </select>
+  </div>
+
+  <div id="densityDiv">
+    <label><input type="checkbox" id="densityToggle"> Show Density</label>
+  </div>
+
+  <div id="tableDiv"></div>
+  <script src="scripts.js"></script>
+</body>
+</html>
